@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/UM2.png";
 
 export default function Navbar() {
   const navLinkClass = ({ isActive }) =>
-    `relative cursor-pointer after:block after:h-[2px] after:bg-indigo-400 after:transition-all
+    `relative cursor-pointer after:block after:h-[2px] after:bg-teal-400 after:transition-all
      ${
        isActive
          ? "text-white after:w-full"
-         : "text-slate-300 after:w-0 hover:after:w-full"
+         : "text-teal-300 after:w-0 hover:after:w-full"
      }`;
 
   return (
@@ -17,11 +17,11 @@ export default function Navbar() {
       <NavLink to="/home" className="flex items-center gap-2">
         <img
           src={Logo}
-          alt="Bilal Khan Logo"
-          className="h-10 w-10 object-contain"
+          alt="Umair Mansuri Logo"
+          className="h-14 w-14 object-contain"
         />
         <span className="text-xl font-bold tracking-wide">
-          Bilal Khan
+          Umair Mansuri
         </span>
       </NavLink>
 

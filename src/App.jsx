@@ -8,11 +8,9 @@ import ProjectDetails from "./pages/ProjectDetails";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import About from "./pages/About";
-
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-slate-100">
-      
+    <div className="min-h-screen bg-gradient-to-br from-teal-900 via-teal-800 to-teal-700 text-teal-100">
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />

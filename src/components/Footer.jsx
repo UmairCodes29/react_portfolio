@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaArrowUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/UM2.png";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -11,7 +11,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-slate-900 border-t border-slate-800">
+    <footer className="relative bg-teal-900 border-t border-teal-800">
       <div className="max-w-6xl mx-auto px-6 py-16">
         {/* Main */}
         <div className="grid md:grid-cols-3 gap-12">
@@ -20,10 +20,10 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img
                 src={Logo}
-                alt="Bilal Khan Logo"
+                alt="Umair Mnasuri Logo"
                 className="h-10 w-10 object-contain"
               />
-              <h3 className="text-xl font-bold">Bilal Khan</h3>
+              <h3 className="text-xl font-bold">Umair Mansuri</h3>
             </div>
             <p className="text-slate-400 max-w-sm">
               Full Stack Developer crafting clean, scalable, and modern web
@@ -47,17 +47,17 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-5 text-xl text-slate-400">
-              <a href="https://github.com/bilalkhan-mern" target="_blank" className="hover:text-indigo-400"><FaGithub /></a>
-              <a href="https://www.linkedin.com/in/bilalkhan-pathan-7258a4252" target="_blank" className="hover:text-indigo-400"><FaLinkedin /></a>
-              <a href="https://twitter.com/bilalkhan8487" target="_blank" className="hover:text-indigo-400"><FaTwitter /></a>
-              <a href="mailto:bilal8511018651@gmail.com" className="hover:text-indigo-400"><FaEnvelope /></a>
+              <a href="https://github.com/UmairCodes29" target="_blank" className="hover:text-indigo-400"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/umair-mansuri-2085a230b" target="_blank" className="hover:text-indigo-400"><FaLinkedin /></a>
+              <a href="https://twitter.Umair.com/" target="_blank" className="hover:text-indigo-400"><FaTwitter /></a>
+              <a href="mailto:umair007mansuri@gmail.com" className="hover:text-indigo-400"><FaEnvelope /></a>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="border-t border-slate-800 mt-12 pt-6 text-center text-slate-500 text-sm">
-          © {new Date().getFullYear()} Bilal Khan. All rights reserved.
+          © {new Date().getFullYear()} Umair Mansuri. All rights reserved.
         </div>
       </div>
 

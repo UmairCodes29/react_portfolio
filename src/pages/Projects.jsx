@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-4">Projects</h2>
-        <p className="text-slate-400 mb-12 max-w-2xl">
+        <p className="text-teal-400 mb-12 max-w-2xl">
           A selection of projects demonstrating my skills in building modern,
           scalable, and maintainable web applications.
         </p>
@@ -16,7 +16,7 @@ export default function Projects() {
           {projectsData.map((project) => (
             <div
               key={project.id}
-              className="bg-slate-800/60 rounded-2xl p-6 flex flex-col justify-between hover:scale-[1.02] transition"
+              className="bg-teal-800/60 rounded-2xl p-6 flex flex-col justify-between hover:scale-[1.02] transition"
             >
               {/* Top */}
               <div>
@@ -24,7 +24,7 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
-                <p className="text-slate-300 mb-4">
+                <p className="text-teal-300 mb-4">
                   {project.description}
                 </p>
 
@@ -33,7 +33,7 @@ export default function Projects() {
                   {project.tech.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-slate-700 rounded-full text-xs"
+                      className="px-3 py-1 bg-teal-700 rounded-full text-xs"
                     >
                       {tech}
                     </span>
@@ -45,7 +45,7 @@ export default function Projects() {
               <div className="flex items-center justify-between">
                 <Link
                   to={`/projects/${project.id}`}
-                  className="text-indigo-400 hover:text-indigo-300 font-medium"
+                  className="text-teal-400 hover:text-teal-300 font-medium"
                 >
                   View Details →
                 </Link>
@@ -54,7 +54,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-300 hover:text-white text-xl"
+                  className="text-teal-300 hover:text-white text-xl"
                 >
                   <FaGithub />
                 </a>

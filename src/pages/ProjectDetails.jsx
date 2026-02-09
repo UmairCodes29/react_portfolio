@@ -23,7 +23,7 @@ export default function ProjectDetails() {
           {project.title}
         </h2>
 
-        <p className="text-slate-300 mb-6">
+        <p className="text-teal-300 mb-6">
           {project.description}
         </p>
 
@@ -35,7 +35,7 @@ export default function ProjectDetails() {
           {project.tech.map((tech, index) => (
             <li
               key={index}
-              className="px-3 py-1 bg-slate-700 rounded-full text-sm"
+              className="px-3 py-1 bg-teal-700 rounded-full text-sm"
             >
               {tech}
             </li>
@@ -44,7 +44,7 @@ export default function ProjectDetails() {
 
         <Link
           to="/projects"
-          className="text-indigo-400 hover:text-indigo-300 font-medium"
+          className="text-teal-400 hover:text-teal-300 font-medium"
         >
           ← Back to Projects
         </Link>
