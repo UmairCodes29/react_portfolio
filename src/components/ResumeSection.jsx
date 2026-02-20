@@ -11,7 +11,7 @@ export default function ResumeSection() {
       <div className="flex justify-center gap-6">
         {/* View Resume */}
         <a
-          href="/Umair_Resume.pdf"
+          href="/react_portfolio/Umair_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 border border-teal-500 hover:border-teal-400 rounded-xl transition"
@@ -22,7 +22,7 @@ export default function ResumeSection() {
 
         {/* Download Resume */}
         <a
-          href="/Umair_Resume.pdf"
+          href="/react_portfolio/Umair_Resume.pdf"
           download
           className="flex items-center gap-2 px-6 py-3 bg-teal-600 hover:bg-teal-500 rounded-xl transition"
         >

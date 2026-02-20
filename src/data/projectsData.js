@@ -7,14 +7,6 @@ const projectsData = [
     tech: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/UmairCodes29/react-portfolio.git",
   },
-  // {
-  //   id: 2,
-  //   title: "MERN Authentication Application",
-  //   description:
-  //     "A modern authentication system built using the MERN stack, featuring secure login, signup, and protected routes. Implements JWT authentication, bcrypt password hashing, and RESTful APIs.",
-  //   tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
-  //   github: "https://github.com/UmairCodes29/mern-auth-app",
-  // },
   {
     id: 3,
     title: "Shreyarth Website",
